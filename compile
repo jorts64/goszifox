@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -g -O9 -I /usr/X11R6/include -L /usr/X11R6/lib -lGL -lglut -lGLU -lm -Wall goszifox.c -ogoszifox
